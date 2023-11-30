@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Kenia&family=Lato:wght@100&family=Nunito+Sans:opsz,wght@6..12,200&family=Poppins:ital,wght@1,700&family=Roboto+Mono:wght@200&family=Ubuntu:wght@300&family=Vina+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Kenia&family=Lato:wght@100&family=Nunito+Sans:opsz,wght@6..12,200&family=Oswald:wght@300&family=Poppins:ital,wght@1,700&family=Roboto+Mono:wght@200&family=Ubuntu:wght@300&family=Vina+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Kdam+Thmor+Pro&family=Kenia&family=Lato:wght@100&family=Nunito+Sans:opsz,wght@6..12,200&family=Oswald:wght@300&family=Poppins:ital,wght@1,700&family=Roboto+Mono:wght@200&family=Smooch+Sans:wght@100;200&family=Ubuntu:wght@300&family=Vina+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Kdam+Thmor+Pro&family=Kenia&family=Lato:wght@100&family=Nunito+Sans:opsz,wght@6..12,200&family=Oswald:wght@300;600&family=Poppins:ital,wght@1,700&family=Roboto+Mono:wght@200&family=Smooch+Sans:wght@100;200&family=Ubuntu:wght@300&family=Vina+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Kdam+Thmor+Pro&family=Kenia&family=Lato:wght@100&family=Nunito+Sans:opsz,wght@6..12,200&family=Oswald:wght@300;600&family=Poppins:ital,wght@1,700&family=Roboto+Mono:wght@200&family=Smooch+Sans:wght@100;200&family=Titillium+Web:ital,wght@1,200&family=Ubuntu:wght@300&family=Vina+Sans&display=swap');
+
+*{
+padding: 0%;
+margin: 0%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 0%, rgba(130,104,69,1) 100%);
+}
+
+.navbar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 15px;
+background-color: black;
+}
+  
+.logo h3 {
+color: white;
+height: 30px;
+}
+
+.logo h3 span{
+color: blue;
+}
+  
+.nav {
+list-style: none;
+display: flex;
+font-family: 'raleway';
+}
+  
+.nav li {
+margin-right: 20px;
+}
+  
+.nav  a {
+text-decoration: none;
+color: white;
+transition: color 0.3s ease;
+font-family: 'open sans';
+}
+  
+.nav a:hover {
+color: lightsteelblue;
+}
+
+.utama{
+margin-top: 200px;   
+}
+
+.utama h1{
+margin-left: 90px;
+font-family: 'oswald';
+}
+
+.utama h3{
+margin-left: 90px;
+font-family: 'oswald';
+}
+
+.utama p{
+margin-left: 90px;
+font-family: 'kanit';
+}
+
+.umaga img{
+margin-left: 900px;
+margin-top: -350px;
+}
+
+.disini button {
+border: none;
+color: gold;
+padding: 5px 5px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 30px 90px;
+transition-duration: 0.4s;
+cursor: pointer;
+border-radius: 20px;
+font-family: 'raleway';
+}
+  
+.disini button {
+background-color: white;
+color: rgb(77, 68, 68);
+border: 2px solid #04AA6D;
+}
+  
+.disini button:hover {
+background-color: gold;
+color: black;
+}
+
+.kedua{
+margin: 200px 200px;
+}
+
+.kedua h1{
+margin-left: 400px;
+font-family: 'oswald';
+}
+
+.kedua p{
+font-family: 'kanit';
+border: 2px solid black;
+background-color: darkkhaki;
+margin-right: 100px;
+}
+
+.nambah h1{
+padding-left: 600px;
+padding-bottom: 25px;
+font-family: 'oswald';
+}
+
+.ketiga{
+border: 2px solid black;
+width: 990px;
+margin-left: 209px;
+background-color: darkkhaki;
+display: flex;
+}
+
+.ketiga h3{
+margin: 30px 45px;
+padding-bottom: 15px;
+font-weight: 300;
+font-family: 'oswald';
+}
+
+.card-container {
+display: flex;
+margin-top: 100px;
+}
+
+.left {
+height: 100px;
+background-color: rgb(161, 97, 97);
+flex: 1;
+}
+
+.right {
+display: flex;
+flex: 1;
+height: 520px;
+background-color: rgb(139, 126, 126);
+justify-content: center;
+align-items: center;
+}
+
+.left {
+display: flex;
+flex: 1;
+height: 522px;
+justify-content: center;
+align-items: center;
+color: #ffffff;
+}
+
+
+.left-container {
+height: 50%;
+width: 80%;
+text-align: center;
+line-height: 22px;
+}
+
+.left p {
+font-size: 0.9rem;
+}
+
+h2 {
+font-size: 2rem;
+margin-bottom: 1rem;
+}
+
+.right-container {
+width: 70%;
+height: 80%;
+text-align: center;
+}
+
+input,
+textarea {
+background-color: #eee;
+border: none;
+padding: 12px 15px;
+margin: 8px 0;
+width: 100%;
+font-size: 0.8rem;
+}
+
+input:focus,
+
+textarea:focus {
+outline: 1px solid #00b4cf;
+}
+
+button {
+border-radius: 20px;
+border: 1px solid #00b4cf;
+background-color: #00b4cf;
+color: #ffffff;
+font-size: 12px;
+font-weight: bold;
+padding: 12px 45px;
+letter-spacing: 1px;
+text-transform: uppercase;
+transition: transform 80ms ease-out;
+cursor: pointer;
+}
+
+button:hover {
+opacity: 0.7;
+}
+
+textarea {
+height: 90px;
+}
+
+.jawa{
+margin-top: 45px;
+background-color: rgb(71, 65, 65);
+}
+
+.jawa h4{
+margin-left: 700px;
+font-size: 20px;
+font-family: 'Titillium Web';
+}
+
+.jawa p{
+display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+ 
+
+  
